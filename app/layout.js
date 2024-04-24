@@ -5,7 +5,7 @@ import "@uploadthing/react/styles.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lama Dev Next.js Admin Dashboard",
+  title: "Hamza Admin Dashboard",
   description: "Next.js Tutorial",
 };
 
