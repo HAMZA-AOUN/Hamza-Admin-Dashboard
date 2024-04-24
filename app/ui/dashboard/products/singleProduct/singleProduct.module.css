@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.info {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+  height: max-content;
+}
+
+.image {
+  object-fit: contain;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.name {
+  color: var(--textSoft);
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding: 10px;
+  background-color: var(--bg);
+  border: solid 2px #2e374a;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.form label {
+  font-size: 12px;
+}
+
+.form button {
+  padding: 10px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}

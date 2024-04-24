@@ -1,0 +1,83 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form input,
+.form select {
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid #2e374a;
+
+  background-color: var(--bg);
+  color: white;
+  margin: 5px 0px;
+  width: 45%;
+}
+
+.form textarea,
+.form button {
+  color: white;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #2e374a;
+
+  background-color: var(--bg);
+}
+
+.form button {
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.uploadImg {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 50px;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  margin: 10px 0px;
+  background-color: var(--bgSoft);
+  border-radius: 50%;
+  border: 2px solid #2e374a;
+}
+
+.img {
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.upload {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
